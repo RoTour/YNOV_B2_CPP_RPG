@@ -1,3 +1,4 @@
+#include "attack.h"
 #include "mage.h"
 
 #include <QtDebug>
@@ -5,6 +6,11 @@
 bool Mage::attack(Mage assaillant, Mage victim, Attack assaillantAction, Defense victimAction)
 {
 
+}
+
+bool Mage::isAlive() const
+{
+    return health() > 0;
 }
 
 QString Mage::name() const

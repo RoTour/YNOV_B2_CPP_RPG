@@ -11,6 +11,9 @@ CONFIG += c++11
 SOURCES += \
     actions.cpp \
     attack.cpp \
+    defense.cpp \
+    defenses.cpp \
+    mage.cpp \
     main.cpp \
     mainwindow.cpp \
     melee.cpp
@@ -18,6 +21,9 @@ SOURCES += \
 HEADERS += \
     actions.h \
     attack.h \
+    defense.h \
+    defenses.h \
+    mage.h \
     mainwindow.h \
     melee.h
 

@@ -1,7 +1,9 @@
 #ifndef MAGE_H
 #define MAGE_H
 
-#include "action.h"
+#include "actions.h"
+#include "attack.h"
+#include "defense.h"
 
 #include <QMap>
 #include <QString>
@@ -21,6 +23,8 @@ private:
 
 public:
     static bool attack(Mage assaillant, Mage victim, Attack assaillantAction, Defense victimAction);
+
+    bool isAlive() const;
 
     QString name() const;
     void setName(const QString &name);

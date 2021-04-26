@@ -40,7 +40,18 @@ void Attack::setWindDmg(int WindDmg)
     m_WindDmg = WindDmg;
 }
 
-Attack::Attack()
+QString Attack::getNewStatus() const
 {
+    return NewStatus;
+}
 
+void Attack::setNewStatus(const QString &value)
+{
+    NewStatus = value;
+}
+
+Attack::Attack(int PhysicalDmg, int FireDmg, int IceDmg, int WindDmg, QString Status)
+    :m_PhysicalDmg(PhysicalDmg), m_FireDmg(FireDmg), m_IceDmg(IceDmg), m_WindDmg(WindDmg), NewStatus(Status)
+{
+    
 }

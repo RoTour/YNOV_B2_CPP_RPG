@@ -6,14 +6,15 @@
 
 class Attack : public Actions
 {
+protected :
     int m_PhysicalDmg;
     int m_FireDmg;
     int m_IceDmg;
     int m_WindDmg;
     QString NewStatus = "";
-
+    
+    Attack(int PhysicalDmg, int FireDmg, int IceDmg, int WindDmg, QString Status);
 public:
-    Attack();
 
     int PhysicalDmg() const;
     void setPhysicalDmg(int PhysicalDmg);
