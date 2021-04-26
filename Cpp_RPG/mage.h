@@ -22,7 +22,7 @@ private:
     QString m_status;
 
 public:
-    static bool attack(Mage assaillant, Mage victim, Attack assaillantAction, Defense victimAction);
+    static bool attack(Mage* assaillant, Mage* victim, Attack* assaillantAction, Defense* victimAction);
 
     bool isAlive() const;
 

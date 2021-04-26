@@ -38,7 +38,13 @@ private:
     Ui::MainWindow *ui;
     void setAttackButtons(bool value);
     void setDefenseButtons(bool value);
+    void onAttack();
     void startGame();
+    bool playerIsAssaillant = true;
+
+    Defense* getBotDefense();
+    Attack* getBotAttack();
+
     Mage* player;
     Mage* bot;
 };

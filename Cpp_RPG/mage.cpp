@@ -3,9 +3,9 @@
 
 #include <QtDebug>
 
-bool Mage::attack(Mage assaillant, Mage victim, Attack assaillantAction, Defense victimAction)
+bool Mage::attack(Mage *assaillant, Mage *victim, Attack *assaillantAction, Defense *victimAction)
 {
-
+    return true;
 }
 
 bool Mage::isAlive() const

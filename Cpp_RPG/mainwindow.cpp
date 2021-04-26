@@ -1,5 +1,6 @@
 #include "mage.h"
 #include "mainwindow.h"
+#include "melee.h"
 #include "ui_mainwindow.h"
 
 
@@ -36,12 +37,30 @@ void MainWindow::setDefenseButtons(bool value)
     ui->WindShield->setEnabled(value);
 }
 
+void MainWindow::onAttack()
+{
+
+}
+
+Defense *MainWindow::getBotDefense()
+{
+
+}
+
+Attack *MainWindow::getBotAttack()
+{
+
+}
+
 
 
 // Attack buttons
 void MainWindow::on_Melee_clicked()
 {
-
+    if(playerIsAssaillant) {
+        Mage::attack(player, bot, new Melee(), getBotDefense());
+        return;
+    }
 }
 
 void MainWindow::on_Fireball_clicked()
