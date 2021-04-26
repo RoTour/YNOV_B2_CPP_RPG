@@ -9,11 +9,17 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    actions.cpp \
+    attack.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    melee.cpp
 
 HEADERS += \
-    mainwindow.h
+    actions.h \
+    attack.h \
+    mainwindow.h \
+    melee.h
 
 FORMS += \
     mainwindow.ui
