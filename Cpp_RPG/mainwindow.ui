@@ -30,30 +30,30 @@
       <item>
        <layout class="QGridLayout" name="gridLayout_2">
         <item row="1" column="0">
-         <widget class="QPushButton" name="pushButton_2">
+         <widget class="QPushButton" name="Fireball">
           <property name="text">
-           <string>PushButton</string>
+           <string>Fireball</string>
           </property>
          </widget>
         </item>
         <item row="3" column="0">
-         <widget class="QPushButton" name="pushButton_5">
+         <widget class="QPushButton" name="WindBlade">
           <property name="text">
-           <string>PushButton</string>
+           <string>WindBlade</string>
           </property>
          </widget>
         </item>
         <item row="2" column="0">
-         <widget class="QPushButton" name="pushButton_3">
+         <widget class="QPushButton" name="IcedArrow">
           <property name="text">
-           <string>PushButton</string>
+           <string>IcedArrow</string>
           </property>
          </widget>
         </item>
         <item row="0" column="0">
-         <widget class="QPushButton" name="pushButton_4">
+         <widget class="QPushButton" name="Melee">
           <property name="text">
-           <string>PushButton</string>
+           <string>Melee</string>
           </property>
          </widget>
         </item>
@@ -62,30 +62,30 @@
       <item>
        <layout class="QGridLayout" name="gridLayout">
         <item row="0" column="0">
-         <widget class="QPushButton" name="pushButton_8">
+         <widget class="QPushButton" name="Parade">
           <property name="text">
-           <string>PushButton</string>
+           <string>Parade</string>
           </property>
          </widget>
         </item>
         <item row="1" column="0">
-         <widget class="QPushButton" name="pushButton_7">
+         <widget class="QPushButton" name="WaterWall">
           <property name="text">
-           <string>PushButton</string>
+           <string>WaterWall</string>
           </property>
          </widget>
         </item>
         <item row="2" column="0">
-         <widget class="QPushButton" name="pushButton_6">
+         <widget class="QPushButton" name="Firewall">
           <property name="text">
-           <string>PushButton</string>
+           <string>Firewall</string>
           </property>
          </widget>
         </item>
         <item row="3" column="0">
-         <widget class="QPushButton" name="pushButton">
+         <widget class="QPushButton" name="WindShield">
           <property name="text">
-           <string>PushButton</string>
+           <string>WindShield</string>
           </property>
          </widget>
         </item>
